@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{9c949708-628b-49d5-9fb1-08eb7b592cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Http">
+      <UniqueIdentifier>{ecd0d3fe-91e9-4130-8e8c-4f5aca380516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Crypto">
+      <UniqueIdentifier>{ee98db90-5df1-49bd-908a-d04093d271e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Json">
+      <UniqueIdentifier>{b38e4681-3310-488b-b1a1-e650cc5cd95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Font">
+      <UniqueIdentifier>{4c0a9318-db35-4325-b212-6db622e26e67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\lw_http.cpp">
+      <Filter>Source Files\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\crypto.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Anim.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_Style.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour_Path.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Http\lw_http.hpp">
+      <Filter>Source Files\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="Http\xor.h">
+      <Filter>Source Files\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\crypto.h">
+      <Filter>Source Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\json.hpp">
+      <Filter>Source Files\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="INRIX_API.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Source Files\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
