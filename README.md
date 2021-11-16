@@ -2,7 +2,7 @@
 INRIX Hackathon 2021 
 
 
-![](https://i.gyazo.com/a7024b1ab17a187c6e307f2930ff3b3a.png)
+![](https://i.gyazo.com/3ef97735287b616700100ee7527b6e4c.gif)
 
 # Process
 ## 1. Initialize the Quadkey to fetch from the INRIX API
